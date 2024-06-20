@@ -32,3 +32,12 @@ plugins:
   - search
 extra:
   generator: false
+nav:
+  - Home: index.md
+  - About:
+    - About/About.md
+  - Modpack:
+    - Modpack/Modpack Modrinth.md
+    - Modpack/Modpack.md
+  - Story:
+    - Story/Story.md
