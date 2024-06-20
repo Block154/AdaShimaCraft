@@ -32,6 +32,9 @@ plugins:
   - search
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-${{ GA_MEASUREMENT_ID }}
 nav:
   - Home: index.md
   - About:
