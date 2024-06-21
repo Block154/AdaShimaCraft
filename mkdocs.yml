@@ -4,10 +4,12 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - search.share
     - navigation.tabs
     - navigation.top
     - navigation.path
     - header.autohide
+    - foc.follow
   font:
     text: Karla # Open Sans
   language: en
@@ -35,6 +37,8 @@ extra:
   analytics:
     provider: google
     property: G-${{ GA_MEASUREMENT_ID }}
+#  version:
+#    provider: mike
 nav:
   - Home: index.md
   - About:
